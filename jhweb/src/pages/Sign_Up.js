@@ -1,6 +1,8 @@
 import { Header } from "../view/Header";
 import { Footer } from "../view/Footer";
 
+// change this code to practitioner page afterwards
+
 export function Sign_Up() {
   return (
     <div>
