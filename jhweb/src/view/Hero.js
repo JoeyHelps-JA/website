@@ -43,7 +43,7 @@ export function Hero() {
           </div>
         </div>
         <div className="picture1">
-          <img style={{ float: "right", height: 600 }} src={logo} />
+          <img  style={{ float: "right", height: 600 }}src={logo} />
         </div>
       </div>
       <div className="hero_two">

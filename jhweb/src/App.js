@@ -5,6 +5,7 @@ import { Event } from "./pages/Event";
 import { Resources } from "./pages/Resources";
 import { Sign_Up } from "./pages/Sign_Up";
 import { Helmet } from "react-helmet";
+import { Practitioner } from "./pages/Practitioner";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/event" element={<Event />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/sign_up" element={<Sign_Up />} />
+        <Route path="/practitioner" element={<Practitioner />} />
       </Routes>
     </div>
   );
