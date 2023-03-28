@@ -9,7 +9,7 @@
   height: 650px;
   display: flex;
   justify-content: space-between;
-  flex-basis: 80%;
+  width: 100%;
 }
 
 .description_box {
@@ -26,7 +26,7 @@
 }
 
 .picture1 {
-  max-width: 100%;
+  width: 50%;
 }
 
 .hero_one button {

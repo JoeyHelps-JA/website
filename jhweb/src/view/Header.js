@@ -36,6 +36,12 @@ ADD AT BOTTOM LATER FOR HEADING BUTTONS
           <button className="specific_buttons">Resources</button>
         </Link>
 
+        <Link to="/practitioner">
+        <button className="specific_buttons">Practitioner</button>
+        </Link>
+
+
+
         <Link to="/sign_up">
           <button className="sign_up_button">Sign Up</button>
         </Link>
