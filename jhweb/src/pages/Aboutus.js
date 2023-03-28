@@ -1,3 +1,4 @@
+/*
 import { Header } from "../view/Header";
 import { Footer } from "../view/Footer";
 
@@ -10,3 +11,4 @@ export function AboutUs() {
     </div>
   );
 }
+*/

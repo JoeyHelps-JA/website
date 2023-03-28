@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "../img/JoeyHelpsLogo.png";
 import "@fontsource/lexend-deca";
 
+
 export function Header() {
   return (
     <div className="container">
@@ -16,7 +17,12 @@ export function Header() {
           <h8 className="title_hash">#HealthierMindsHappierPeople</h8>
         </div>
       </div>
+    </div>
+  );
+}
 
+/* 
+ADD AT BOTTOM LATER FOR HEADING BUTTONS 
       <div className="buttons">
         <Link to="/aboutus">
           <button className="specific_buttons">About Us</button>
@@ -34,6 +40,4 @@ export function Header() {
           <button className="sign_up_button">Sign Up</button>
         </Link>
       </div>
-    </div>
-  );
-}
+*/

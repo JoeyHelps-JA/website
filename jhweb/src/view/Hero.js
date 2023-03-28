@@ -1,3 +1,4 @@
+
 import React from "react";
 import logo from "../img/hero_img1.png";
 import "./Hero.css";
@@ -43,7 +44,7 @@ export function Hero() {
           </div>
         </div>
         <div className="picture1">
-          <img style={{ float: "right", height: 600 }} src={logo} />
+          <img style={{ float: "right", height: 625 }} src={logo} />
         </div>
       </div>
       <div className="hero_two">
@@ -129,6 +130,11 @@ export function Hero() {
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+/* 
       <div className="hero_three">
         <div className="picture2">
           <img style={{ height: 600, height: "auto" }} src={chair} />
@@ -162,6 +168,4 @@ export function Hero() {
           </div>
         </div>
       </div>
-    </div>
-  );
-}
+      */
