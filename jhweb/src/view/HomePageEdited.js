@@ -12,13 +12,14 @@ import img5 from "../img/vector1092-9dru.svg"
 import img6 from "../img/vector1092-tv6.svg"
 import img7 from "../img/rectangle2491092-qpes-1600w.png"
 import img8 from "../img/rectangle1941095-xwo-200h.png"
-import img9 from "../img/rectangle1991095-oek-200h.png"
+import featured_practitioner from "../img/Group 157.png"
+import img10 from "../img/rectangle2121095-ezcq-200h.png"
 
 const Hero = (props) => {
   return (
     <div className="home-page-edited-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Joey Helps</title>
       </Helmet>
       <div className="home-page-edited-home-page-edited">
         <span className="home-page-edited-text">
@@ -45,12 +46,12 @@ const Hero = (props) => {
           src={herogirl}
           className="home-page-edited-undrawappreciationwe8a1"
         />
-        {/* <img
+        <img
           alt="Rectangle1941095"
           src={img8}
           className="home-page-edited-rectangle194"
-        /> */}
-        {/* <span className="home-page-edited-text06">
+        /> 
+        <span className="home-page-edited-text06">
           <span>OCD</span>
         </span>
         <span className="home-page-edited-text08">
@@ -58,7 +59,7 @@ const Hero = (props) => {
         </span>
         <img
           alt="Rectangle1991095"
-          src={img9}
+          src={featured_practitioner}
           className="home-page-edited-rectangle199"
         />
         <span className="home-page-edited-text10">
@@ -66,7 +67,7 @@ const Hero = (props) => {
         </span>
         <img
           alt="Rectangle2121095"
-          src="/playground_assets/rectangle2121095-ezcq-200h.png"
+          src={img10}
           className="home-page-edited-rectangle212"
         />
         <span className="home-page-edited-text12">
@@ -74,8 +75,8 @@ const Hero = (props) => {
         </span>
         <span className="home-page-edited-text14">
           <span>Toronto,ON</span>
-        </span> */}
-        {/* <img
+        </span> 
+        <img
           alt="Rectangle2161096"
           src="/playground_assets/rectangle2161096-ddt2-200h.png"
           className="home-page-edited-rectangle216"
@@ -84,7 +85,7 @@ const Hero = (props) => {
           alt="Rectangle2171096"
           src="/playground_assets/rectangle2171096-7w3e-200h.png"
           className="home-page-edited-rectangle217"
-        /> */}
+        /> 
         <div className="home-page-edited-group125">
           <div className="home-page-edited-how-our-web-works">
             <span className="home-page-edited-text16">
@@ -144,13 +145,13 @@ const Hero = (props) => {
             <span>How We Help</span>
           </span>
         </div>
-        <button className="home-page-edited-button">
+        {/* <button className="home-page-edited-button">
           <div className="home-page-edited-outline-default">
             <span className="home-page-edited-text33">
               <span>Find your Practioner</span>
             </span>
           </div>
-        </button>
+        </button> */}
         <div className="home-page-edited-group154">
           <img
             alt="Rectangle2491092"
@@ -293,13 +294,13 @@ const Hero = (props) => {
                 <span>Mental Health Conference</span>
               </span>
               <span className="home-page-edited-text79">
-                <span>March 27, 2023</span>
+                <span>April 6, 2023</span>
               </span>
             </div>
           </div>
           <div className="home-page-edited-group153">
-            <span className="home-page-edited-text81">
-              <span>View Details</span>
+          <a className ="home-page-edited-text81" href='https://www.eventbrite.com/e/joey-helps-x-deloitte-first-step-summit-tickets-583867271727' target="_blank">View Details</a>
+            <span className="home-page-edited-text81"> 
             </span>
           </div>
         </div>

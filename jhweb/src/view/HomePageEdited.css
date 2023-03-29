@@ -12,7 +12,7 @@
   background-color: var(--dl-color-default-white);
 }
 .home-page-edited-text {
-  top: 454px;
+  top: 425px;
   left: 114px;
   color: rgba(0, 10, 57, 1);
   width: 981px;
@@ -31,7 +31,7 @@
   text-decoration: none;
 }
 .home-page-edited-text02 {
-  top: 627px;
+  top: 575px;
   left: 112px;
   color: rgba(0, 0, 0, 1);
   width: 603px;
@@ -50,7 +50,7 @@
   text-decoration: none;
 }
 .home-page-edited-text04 {
-  top: 214px;
+  top: 185px;
   left: 117px;
   color: rgba(120, 150, 202, 1);
   width: 1114px;
@@ -123,17 +123,19 @@
   margin-right: 0;
   margin-bottom: 0;
   text-decoration: none;
+
+/* featured practitioner section */ 
 }
 .home-page-edited-rectangle199 {
-  top: 4026px;
+  top: 2500px;
   left: 174px;
-  width: 87px;
-  height: 31px;
+  /* width: 400px; */
+  /* height: 31px; */
   position: absolute;
-  border-color: rgba(255, 255, 255, 1);
+  /* border-color: rgba(255, 255, 255, 1);
   border-style: solid;
   border-width: 1px;
-  border-radius: 12px;
+  border-radius: 12px; */
 }
 .home-page-edited-text10 {
   top: 3890.737548828125px;
